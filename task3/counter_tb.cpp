@@ -23,7 +23,7 @@ int main(int argc, char **argv, char **env){
     //initialize simulation inputs
     top->clk = 1;
     top->rst = 1;
-    top->v = 0;
+    top->v = vbdValue();
     top->ld = 0;
     vbdSetMode(1);
 
